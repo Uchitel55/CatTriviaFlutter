@@ -8,9 +8,8 @@ Flutter uses a variety of widgets to deliver a fully functioning application. Th
 Goal of this funny and pretty project is to show simple and clean architecture using Riverpod package.
 
 **Summary:**
-* Fetch Data from API using DIO package (https://alexwohlbruck.github.io/cat-facts/docs/)
+* Fetch Data from API using DIO package (https://alexwohlbruck.github.io/cat-facts/docs/) and show random image (https://cataas.com/cat)
 * Display text and date
-* Show random image (https://cataas.com/cat)
 * Add buttom "Another fact!" -> Load and show a new random fact + image on pressed
 * Show loading animation while fact and image is loading
 * Show error if something went wrong
