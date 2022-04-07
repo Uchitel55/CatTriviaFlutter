@@ -1,5 +1,5 @@
 # Flutter: Cat Trivia
-#### Video Demo: https://youtube.com/shorts/rgia-tCiPnU
+#### Video Demo: https://www.youtube.com/shorts/3S95zFHxR_I
 #### Description:
 Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Andrioid, iOS, Linux, Mac, Windows, Web platform.
 Flutter was released in May 2017.
@@ -14,7 +14,5 @@ Goal of this funny and pretty project is to show simple and clean architecture u
 * Show loading animation while fact and image is loading
 * Show error if something went wrong
 * Drawer with navigation and page replacement
-
-**Future improvements:**
 * Add screen that listing all the saved facts
-* Use Hive for storing data on the device
+* Use Firebase web server for storing data
