@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../widgets/cat_fact.dart';
 import '../widgets/cat_image.dart';
-import '../widgets/custom_button.dart';
 import '../widgets/main_drawer.dart';
+import '../widgets/custom_button.dart';
 
 class HomePage extends StatelessWidget {
   static const routeName = '/home';
@@ -27,18 +27,20 @@ class HomePage extends StatelessWidget {
           ),
           width: double.infinity,
           height: double.infinity,
-          child: Column(
-            children: const [
-              Padding(
-                padding: EdgeInsets.all(0),
-                child: CatImage(),
-              ),
-              Padding(
-                padding: EdgeInsets.all(15.0),
-                child: CatFact(),
-              ),
-              CustomButton(),
-            ],
+          child: SingleChildScrollView(
+            child: Column(
+              children: const [
+                Padding(
+                  padding: EdgeInsets.all(0),
+                  child: CatImage(),
+                ),
+                Padding(
+                  padding: EdgeInsets.all(15.0),
+                  child: CatFact(),
+                ),
+                CustomButton(),
+              ],
+            ),
           ),
         ));
   }
