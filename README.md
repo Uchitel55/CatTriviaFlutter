@@ -5,7 +5,7 @@ Flutter is an open-source UI software development kit created by Google. It is u
 Flutter was released in May 2017.
 Flutter uses a variety of widgets to deliver a fully functioning application. These widgets are Flutter's framework architecture.
 
-Goal of this funny and pretty project is to show simple and clean architecture using Riverpod package.
+Goal of this funny and pretty project is to show simple architecture using Riverpod package.
 
 **Summary:**
 * Fetch Data from API using DIO package (https://alexwohlbruck.github.io/cat-facts/docs/) and show random image (https://cataas.com/cat)
